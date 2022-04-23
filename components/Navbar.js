@@ -1,12 +1,11 @@
 import React from "react";
 import NavbarLink from "./NavbarLink";
-import Link from "next/link";
 
 const links = [
     {
         id: 0,
         title: 'Who am I',
-        href: 'WhoAmI'
+        href: '/'
     },
     {
         id: 1,
