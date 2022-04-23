@@ -1,15 +1,15 @@
 import React from 'react'
-import Card from '../components/Card'
+import Project from '../components/Project'
 import LayoutContainer from '../components/UI/LayoutContainer'
 
 const Projects = () => {
     return (
         <>
             <LayoutContainer>
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                <Project />
+                <Project />
+                <Project />
+                <Project />
             </LayoutContainer>
 
         </>
