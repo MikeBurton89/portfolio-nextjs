@@ -11,7 +11,11 @@ module.exports = {
       'green': '#0B4619',
       'white': '#f9fafb'
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'main-back': "url('/public/assets/background.png')"
+      }
+    },
   },
   plugins: [],
 }
