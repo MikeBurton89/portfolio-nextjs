@@ -13,7 +13,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'main-back': "url('/public/assets/background.png')"
+        'main-back': "url('../public/assets/background.png')"
       }
     },
   },

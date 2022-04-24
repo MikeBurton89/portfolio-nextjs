@@ -6,7 +6,7 @@ import { Fade } from 'react-reveal'
 const Projects = () => {
     return (
         <>
-            <LayoutContainer>
+            <LayoutContainer >
                 <Fade left><Project /></Fade>
                 <Fade right><Project /></Fade>
                 <Fade left><Project /></Fade>
