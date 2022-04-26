@@ -8,10 +8,10 @@ const Projects = () => {
         <>
             <Fade>
                 <LayoutContainer >
-                    <Fade left><Project /></Fade>
-                    <Fade right><Project /></Fade>
-                    <Fade left><Project /></Fade>
-                    <Fade right><Project /></Fade>
+                    <Project />
+                    <Project />
+                    <Project />
+                    <Project />
                 </LayoutContainer>
             </Fade>
 
