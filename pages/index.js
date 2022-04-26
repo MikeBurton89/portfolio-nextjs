@@ -1,17 +1,18 @@
 import LayoutCard from "../components/UI/LayoutCard"
 import LayoutContainer from "../components/UI/LayoutContainer"
+import { Fade } from "react-reveal"
 
 export default function Home() {
   return (
-    <>
-      <LayoutContainer>
-        <LayoutCard>
-          <main>
-            <h1>Hi, my name is Michele but you can call me Mike.</h1>
-            <p>I am a web developer</p>
-          </main>
-        </LayoutCard>
-      </LayoutContainer>
-    </>
+    <main>
+      <Fade>
+        <LayoutContainer>
+          <LayoutCard ><h1 className='text-8xl'>Hi <br />my name is <span className='hover:uppercase hover:underline'>Michele</span>, but you can call me Mike.</h1></LayoutCard>
+          <LayoutCard>
+            <p className='mt-20 text-base  text-justify'>I develop websites for a living. From wireframe to finished products, from your idea to a website.</p>
+          </LayoutCard>
+        </LayoutContainer>
+      </Fade>
+    </main >
   )
 }
