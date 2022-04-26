@@ -5,7 +5,7 @@ import LayoutCard from './UI/LayoutCard'
 
 const Project = () => {
     return (
-        <div className='col-span-2'>
+        <div>
             <LayoutCard>
                 {/* <Image objectFit="contain" className="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={computer} alt="" /> */}
                 <div className="flex flex-col p-4 leading-normal">
