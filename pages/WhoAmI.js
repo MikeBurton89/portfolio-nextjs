@@ -19,8 +19,9 @@ const WhoAmI = () => {
                 <p className='px-6'>
                     {`This is a fine question indeed.
                     Let's just ignore the philosophy of the question and try to answer at least with basic info.
-                    I'm italian, I'm ${age} years old
-                    I am a web developer, I use computer to do things that you can click or touch on the internet.  
+                    I'm italian, I'm ${age} years old.
+                    I am a web developer to summarize my job: 
+                    I use computer to do things that you can click or touch on the internet.  
                     For example my age above will always be up to date thanks to something called Javascript.
                     Was it fundamental to code an age calculator? No, but I'm a developer, I will spend hours
                     automating a 10 second task.`}
