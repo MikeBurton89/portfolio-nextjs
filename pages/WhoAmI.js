@@ -13,11 +13,11 @@ const WhoAmI = () => {
             </LayoutCard>
             <LayoutCard>
                 <p className='px-6'>
-                    {'This is a fine question indeed.
+                    {"This is a fine question indeed.
                     Let's just ignore the philosophy of the question and try to answer at least with basic info.
                     I'm italian, I'm {currentYear - 1989} years old
                     I am a web developer, I use computer to do things that you can click or touch on the internet.
-                    For example my age above will always be up to date thanks to something called Javascript.'}
+                    For example my age above will always be up to date thanks to something called Javascript."}
                 </p>
             </LayoutCard>
         </LayoutContainer>
