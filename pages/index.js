@@ -9,7 +9,7 @@ export default function Home() {
         <LayoutContainer>
           <LayoutCard ><h1 className='md:text-8xl text-7xl text-start'>Hi <br />my name is <span className='hover:underline'>Michele</span>, but you can call me Mike.</h1></LayoutCard>
           <LayoutCard className='xs:px-6'>
-            <p className='mt-20 text-base text-start px-8'>I develop websites for a living. From wireframe to finished products, from your idea to a website.</p>
+            <p className='mt-20 text-base text-start px-8'>I'm a web developer.</p>
           </LayoutCard>
         </LayoutContainer>
       </Fade>

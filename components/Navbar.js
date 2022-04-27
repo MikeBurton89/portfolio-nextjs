@@ -5,7 +5,7 @@ const links = [
     {
         id: 0,
         title: 'Who am I',
-        href: '/'
+        href: '/WhoAmI'
     },
     {
         id: 1,
