@@ -1,6 +1,5 @@
 export const projectsData = [
     {
-        id: 0,
         title: 'Portfolio',
         text: 'Lorem Ipsum'
 
