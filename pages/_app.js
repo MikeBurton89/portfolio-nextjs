@@ -10,9 +10,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Background>
         <Navbar></Navbar>
-
         <Component {...pageProps} />
-
         <Footer></Footer>
       </Background>
     </>
