@@ -10,7 +10,7 @@ const links = [
     {
         id: 1,
         title: 'Projects',
-        href: 'Projects'
+        href: '/IndexProjects'
 
     },
     {
@@ -24,7 +24,7 @@ export default function Navbar({ fixed }) {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
         <>
-            <nav className="z-50 sticky top-0 relative flex flex-wrap items-center justify-between px-2 py-3 bg-dark-grey mb-3">
+            <nav className="z-50 sticky top-0 flex flex-wrap items-center justify-between px-2 py-3 bg-dark-grey mb-3">
                 <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                         <NavbarLink className="nav-item text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href='/' title='Michele Puricelli' />
