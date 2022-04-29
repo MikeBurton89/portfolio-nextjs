@@ -8,7 +8,7 @@ const IndexProjects = () => {
     return (
         <>
             <Fade>
-                <LayoutContainer >
+                <LayoutContainer className='flex-wrap'>
                     {projectsData.map((project) => <Project href={project.title} key={project.id} title={project.title} text={project.text} />)}
                 </LayoutContainer>
             </Fade>

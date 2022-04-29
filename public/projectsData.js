@@ -1,10 +1,5 @@
 export const projectsData = [
     {
-        title: 'Portfolio',
-        text: 'Lorem Ipsum'
-
-    },
-    {
         id: 1,
         title: 'Portfolio1',
         text: 'Lorem Ipsum'
@@ -23,13 +18,13 @@ export const projectsData = [
 
     },
     {
-        id: 3,
+        id: 4,
         title: 'Portfolio4',
         text: 'Lorem Ipsum'
 
     },
     {
-        id: 4,
+        id: 5,
         title: 'Portfolio5',
         text: 'Lorem Ipsum'
 
