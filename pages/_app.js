@@ -4,6 +4,7 @@ import '../styles/globals.css'
 import background from '../public/assets/background.png'
 import { Fade } from 'react-reveal'
 import Background from '../components/UI/Background'
+import { Toggle } from '../components/Toggle'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }) {
       <Background>
         <Navbar></Navbar>
         <Component {...pageProps} />
+        <Toggle></Toggle>
         <Footer></Footer>
       </Background>
     </>

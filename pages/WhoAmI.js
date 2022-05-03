@@ -15,6 +15,13 @@ const skills = ["The Holy Trinity: HTML, CSS and Javascript;",
     "Canva for wireframe design."
 ]
 
+const birthDate = new Date('06/28/1989')
+let month_diff = Date.now() - birthDate.getTime()
+let age_dt = new Date(month_diff)
+let year = age_dt.getUTCFullYear()
+let age = Math.abs(year - 1970)
+
+
 const presentationText = [
     `This is a fine question indeed.
                     Let's just ignore the philosophy of the question and try to answer at least with basic info.
@@ -29,13 +36,11 @@ const presentationText = [
 
 
 
+
+
 const WhoAmI = () => {
 
-    const birthDate = new Date('06/28/1989')
-    let month_diff = Date.now() - birthDate.getTime()
-    let age_dt = new Date(month_diff)
-    let year = age_dt.getUTCFullYear()
-    let age = Math.abs(year - 1970)
+
 
 
     return (

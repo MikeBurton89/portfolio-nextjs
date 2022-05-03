@@ -37,3 +37,20 @@ a {
     50%{background-position:100% 30%}
     100%{background-position:0% 71%}
   }
+
+  .light {
+  --color-primary: #313131;
+  --color-secondary: #414141;
+  --color-tertiary: #525252;
+  --color-accent: #0B4619;
+  --color-text: #f9fafb;
+  }
+
+  .dark {
+  --color-primary: #FBF7F7;
+  --color-secondary: #F0AE2C;
+  --color-tertiary: #F9D00F;
+  --color-accent: #F92727;
+  --color-text: #000000;
+
+  }

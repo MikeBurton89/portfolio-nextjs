@@ -25,12 +25,12 @@ export default function Navbar({ fixed }) {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
         <>
-            <nav className="z-50 sticky top-0 flex flex-wrap items-center justify-between px-2 py-3 bg-dark-grey mb-3">
+            <nav className="z-50 sticky top-0 flex flex-wrap items-center justify-between px-2 py-3 bg-primary mb-3">
                 <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-                        <NavbarLink className="nav-item text-2xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href='/' title='Michele Puricelli' />
+                        <NavbarLink className="nav-item text-2xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-colortext" href='/' title='Michele Puricelli' />
                         <button
-                            className="text-white cursor-pointer text-xl leading-none px-3 py-1 bg-transparent block lg:hidden outline-none focus:outline-none"
+                            className="text-textcolor cursor-pointer text-xl leading-none px-3 py-1 bg-transparent block lg:hidden outline-none focus:outline-none"
                             type="button"
                             onClick={() => setNavbarOpen(!navbarOpen)}
                         >
