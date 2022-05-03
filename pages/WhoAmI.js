@@ -15,24 +15,28 @@ const skills = ["The Holy Trinity: HTML, CSS and Javascript;",
     "Canva for wireframe design."
 ]
 
+const presentationText = [
+    `This is a fine question indeed.
+                    Let's just ignore the philosophy of the question and try to answer at least with basic info.
+                    I'm italian, I'm ${age} years old.
+                    I am a web developer.`,
+    `To summarize my job: 
+                    I use computer to make things that you can click or touch on the internet.  
+                    For example: my age above will always be up to date thanks to something called Javascript.
+                    Was it fundamental to code an age calculator? No, but I'm a developer, I will spend hours
+                    automating a 10 second task.`,
+    `Here's a list of the technologies and tools I use daily:`]
+
 
 
 const WhoAmI = () => {
+
     const birthDate = new Date('06/28/1989')
     let month_diff = Date.now() - birthDate.getTime()
     let age_dt = new Date(month_diff)
     let year = age_dt.getUTCFullYear()
     let age = Math.abs(year - 1970)
 
-    const presentationText = [`This is a fine question indeed.
-                    Let's just ignore the philosophy of the question and try to answer at least with basic info.
-                    I'm italian, I'm ${age} years old.
-                    I am a web developer.`, `
-                    To summarize my job: 
-                    I use computer to make things that you can click or touch on the internet.  
-                    For example: my age above will always be up to date thanks to something called Javascript.
-                    Was it fundamental to code an age calculator? No, but I'm a developer, I will spend hours
-                    automating a 10 second task.`, `Here's a list of the technologies and tools I use daily:`]
 
     return (
         <Fade>

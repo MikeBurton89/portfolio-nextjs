@@ -9,12 +9,14 @@ module.exports = {
       'grey': '#414141',
       'light-grey': '#525252',
       'green': '#0B4619',
-      'white': '#f9fafb'
+      'white': '#f9fafb',
+      'red': '#F92727',
+      'orange': '#F0AE2C',
+      'yellow': '#F9D00F',
+      'light-white': '#FBF7F7'
+
     },
     extend: {
-      backgroundImage: {
-        'main-back': "url('../public/assets/background.png')"
-      }
     },
   },
   plugins: [],
