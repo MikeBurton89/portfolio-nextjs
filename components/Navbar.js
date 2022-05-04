@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import NavbarLink from "./NavbarLink";
+import { Toggle } from "./Toggle";
 
 const links = [
     {
@@ -48,6 +49,7 @@ export default function Navbar({ fixed }) {
                     >
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                             {links.map((link) => <NavbarLink href={link.href} key={link.id} title={link.title} />)}
+                            <Toggle className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-textcolor hover:opacity-75'></Toggle>
                         </ul>
                     </div>
                 </div>
